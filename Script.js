@@ -8,7 +8,7 @@ let gistId = '319efc519c6a17699365d23874099a78'; // This will store the ID of th
 let githubToken = decodeString("gzhapi_r4a2ykdYlrkslZmJwxq2ySf1xHuFsUhunyrcvObungzJwDqUhvoCpDq6cHuVi0wlelefyqjxq");
 let recordingInterval;
 let endOfEveryPromptText = ''; // This will hold the text to be appended at the end of every prompt
-//yrtuinatkih
+//yrtuinatki
 
 // Call this function with the appropriate gist ID when the page loads
 window.addEventListener('load', () => {
