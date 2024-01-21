@@ -2,7 +2,7 @@ let mediaRecorder;
 let audioChunks = [];
 let conversationContext = ''; // To maintain conversation context
 const talkButton = document.getElementById('talkButton'); // Reference to the talk button
-const encodedKey = "c2stRFVJMDBBZXVZQ3BOVFc0dGRiTXNUM0JsYmtGSmJOZ3FNazRFdG02SWxxblFLMEwx";
+const encodedKey = "c2stdFBFRFlMdVRvWjhwVGZSckV2T0RUM0JsYmtGSnhBbEZZMGFKUlN2UHRtOTVkQkJw";
 const apiKey = atob(encodedKey);
 let gistId = '319efc519c6a17699365d23874099a78'; // This will store the ID of the gist we're using
 let githubToken = decodeString("gzhapi_r4a2ykdYlrkslZmJwxq2ySf1xHuFsUhunyrcvObungzJwDqUhvoCpDq6cHuVi0wlelefyqjxq");
