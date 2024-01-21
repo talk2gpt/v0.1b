@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Talk to GPT</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #conversationWindow {
+            overflow-y: scroll;
+            max-height: 50vh;
+            width: 80vw;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        #textInput {
+            width: 80vw;
+            max-width: 300px;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        #sendTextButton, #talkButton {
+            width: 80vw;
+            max-width: 300px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #talkButton.stop {
+            background-color: #f44336;
+        }
+        #talkButton:hover, #sendTextButton:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="conversationWindow">
+        <!-- Conversation history will be displayed here -->
+    </div>
+    <textarea id="textInput" rows="4" placeholder="Type your message here"></textarea>
+    <button id="sendTextButton">Send Text</button>
+    <button id="talkButton" style="font-size: 18px;">Push to Talk</button>
+    <textarea id="endOfEveryPromptInput" rows="4" placeholder="Edit end of every prompt content here"></textarea>
+    <button id="submitEndOfEveryPromptEdit">Submit Changes</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://talk2gpt.github.io/v0.1/Script.js"></script>
+</body>
+</html>
