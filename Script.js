@@ -112,7 +112,7 @@ function queryGPT35Turbo(text) {
     }
 
     // Fetch request to GPT-4 API
-    fetch('https://api.openai.com/v1/chat/completions', {
+    fetch('https://api.openai.com/v1/chataaaaaaaa/completions', {
         method: 'POST',
         headers: {
             'Authorization': `Bearer ${apiKey}`,
